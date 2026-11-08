@@ -9,17 +9,8 @@ on screen.
 
 ## Install
 
-From a public repository:
-
 ```bash
 omarchy plugin add https://github.com/Naitrate/omarchy-bitwarden --enable
-```
-
-Or clone it into your user plugin directory and enable it:
-
-```bash
-git clone https://github.com/Naitrate/omarchy-bitwarden ~/.config/omarchy/plugins/naitrate.bitwarden
-omarchy plugin enable naitrate.bitwarden
 ```
 
 The plugin ID is `naitrate.bitwarden`. It is placed in the right bar section
@@ -40,7 +31,7 @@ secret-tool clear service omarchy-bitwarden account <your-email>
 
 ## Requirements
 
-- `bw` (Bitwarden CLI): `omarchy pkg add bitwarden-cli`
+- `bw` (Bitwarden CLI): install the `bitwarden-cli` package with your package manager
 - `jq` (already present on Omarchy)
 - `wl-copy` / `wl-paste` (wl-clipboard, already present on Omarchy)
 - `gpg` and `secret-tool` (already present on Omarchy) for PIN unlock

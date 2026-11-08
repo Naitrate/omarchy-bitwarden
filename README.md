@@ -7,6 +7,12 @@ the bar, unlocks with your master password or a PIN, searches logins, and
 copies usernames, passwords, or one-time codes without ever putting a secret
 on screen.
 
+## Screenshots
+
+![Bitwarden bar widget and locked panel](screenshots/bar-panel.png)
+
+![Searching the unlocked vault](preview.png)
+
 ## Install
 
 ```bash

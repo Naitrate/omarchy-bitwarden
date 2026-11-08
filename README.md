@@ -12,13 +12,13 @@ on screen.
 From a public repository:
 
 ```bash
-omarchy plugin add <repository-url> --enable
+omarchy plugin add https://github.com/Naitrate/omarchy-bitwarden --enable
 ```
 
 Or clone it into your user plugin directory and enable it:
 
 ```bash
-git clone <repository-url> ~/.config/omarchy/plugins/naitrate.bitwarden
+git clone https://github.com/Naitrate/omarchy-bitwarden ~/.config/omarchy/plugins/naitrate.bitwarden
 omarchy plugin enable naitrate.bitwarden
 ```
 
